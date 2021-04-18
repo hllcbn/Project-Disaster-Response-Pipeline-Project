@@ -22,11 +22,40 @@ This Project is part of Data Science Nanodegree Program by Udacity. The initial 
 ## Descriptions <a name="Descriptions"></a>
 The Project is divided in the following Sections:
 
-1.	### ETL Pipeline: Data Processing, ETL Pipeline to extract data from source, clean data and save them in a proper database structure.
+1.	ETL Pipeline:  Data Processing, ETL Pipeline to extract data from source, clean data and save them in a proper database structure.
 
-2.	ML Pipeline: Machine Learning Pipeline to train a model able to classify text message in categories.
+2.	ML Pipeline:  Machine Learning Pipeline to train a model able to classify text message in categories.
 
-3.	Flask Web App: Web App to show model results in real time.
+3.	Flask Web App:  Web App to show model results in real time.
+
+
+## Installation <a name="Installation"></a>
+
+This project requires Python 3.x and the following Python libraries installed:
+
+•	pandas
+
+•	re
+
+•	sys
+
+•	json
+
+•	html
+
+•	sklearn
+
+•	nltk
+
+•	sqlalchemy
+
+•	pickle
+
+•	Flask
+
+•	plotly
+
+•	sqlite3
 
 
 
