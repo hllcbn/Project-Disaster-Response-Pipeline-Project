@@ -98,7 +98,6 @@ The dataset is provided by Figure Eight is basically composed by:
 ![image](https://user-images.githubusercontent.com/59744578/115153594-749f2200-a03c-11eb-9eec-dc601252261d.png)
 
 ## Licensing, Authors, and Acknowledgements
-Credit to Figure Eight for the datasets and more information about licensing of the data can be find [here.]
-(https://appen.com/open-source-datasets/)
+Credit to Figure Eight for the datasets and more information about licensing of the data can be find [here.](https://appen.com/open-source-datasets/)
 
 
