@@ -2,12 +2,17 @@
 
 ### Table of Contents
 •	[Motivation](#Motivation)
+
 •	[Descriptions](#Description) 
-•	[Screenshots Web App](#Secreenshots Web App)
+
+•	[Screenshots Web App](#Secreen#shots#WebApp)
+
 •	[Installation](#Installation)
+
 •	[Data](#Data)
-•	Result: Screenshots
-•	Licensing, Authors, and Acknowledgements
+
+•	Result: Screenshots(#Result: Screenshots)
+•	Licensing, Authors, and Acknowledgements(#Licensing,
 
 
 
