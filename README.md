@@ -17,12 +17,12 @@
 
 ## Motivation <a name="Motivation"></a>
 
-This Project is part of Data Science Nanodegree Program by Udacity. The initial dataset contains tweet and messages from real-life disaster. The goal of the project is to build a Natural Language Processing tool and classify the disaster messages into categories. The web app also displays visualizations of the data
+This Project is part of Udacity Data Science Nanodegree Program . The dataset contains tweet and messages from disaster. The goal of the project is to build a Natural Language Processing tool and classify the disaster messages into categories. The web app also displays visualizations of the data
 
 ## Descriptions <a name="Descriptions"></a>
 The Project is divided in the following Sections:
 
-1.	**ETL Pipeline:**  Data Processing, ETL Pipeline to extract data from source, clean data and save them in a proper database structure.
+1.	**ETL Pipeline:**  Data Processing, ETL Pipeline to extract , clean  and save data  in a proper database structure.
 
 2.	**ML Pipeline:**  Machine Learning Pipeline to train a model able to classify text message in categories.
 
