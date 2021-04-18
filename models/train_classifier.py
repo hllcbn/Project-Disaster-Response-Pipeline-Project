@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import nltk
 nltk.download(['punkt', 'wordnet'])
 
@@ -80,7 +74,7 @@ def build_model(grid_search_cv = False):
     '''
     Build the model
     Args:
-        grid_search_cv (bool): if True after building the pipeline it will be performed an exhaustive search over specified parameter values ti find the best ones
+        grid_search_cv (bool): if it is True then will be run. Grid Search run takes time so this method is added
     Returns:
         pipeline (pipeline.Pipeline): model
     '''
@@ -94,10 +88,10 @@ def build_model(grid_search_cv = False):
     if grid_search_cv == True:
         print('Searching for best parameters...')
         parameters = {'vect__ngram_range': ((1, 1), (1, 2))
-            , 'vect__max_df': (0.5, 0.75, 1.0)
+            , 'vect__max_df': (0.5,  1.0)
             , 'tfidf__use_idf': (True, False)
-            , 'clf__estimator__n_estimators': [50, 100, 200]
-            , 'clf__estimator__min_samples_split': [2, 3, 4]
+            , 'clf__estimator__n_estimators': [50, 200]
+            , 'clf__estimator__min_samples_split': [2, 4]
         }
 
         pipeline = GridSearchCV(pipeline, param_grid = parameters)
@@ -109,7 +103,7 @@ def build_model(grid_search_cv = False):
 
 def evaluate_model(model, X_test, Y_test, category_names):
     '''
-    Evaluate the model performances and print the results
+    Evaluate the model 
     Args:
         model (pipeline.Pipeline): model to evaluate
         X_test (pandas.Series): dataset
@@ -129,8 +123,8 @@ def save_model(model, model_filepath):
     '''
     Save in a pickle file the model
     Args:
-        model (pipeline.Pipeline): model to be saved
-        model_pickle_filename (str): destination pickle filename
+        model: model to be saved
+        model_pickle_filename : pickle filename
     '''
     pickle.dump(model, open(model_filepath, 'wb'))
 
@@ -161,9 +155,11 @@ def main():
         print('Trained model saved!')
 
     else:
-        print('Please provide the filepath of the disaster messages database '              'as the first argument and the filepath of the pickle file to '              'save the model to as the second argument. \n\nExample: python '              'train_classifier.py ../data/DisasterResponse.db classifier.pkl')
+        print('Please provide the filepath of the disaster messages database '\
+              'as the first argument and the filepath of the pickle file to '\
+              'save the model to as the second argument. \n\nExample: python '\
+              'train_classifier.py ../data/DisasterResponse.db classifier.pkl')
 
 
 if __name__ == '__main__':
     main()
-
