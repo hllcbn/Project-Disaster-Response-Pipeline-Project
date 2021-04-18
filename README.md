@@ -58,5 +58,18 @@ This project requires Python 3.x and the following Python libraries installed:
 •	sqlite3
 
 
+## Data <a name="Data"></a>
 
+The dataset is provided by Figure Eight is basically composed by:
+
+•	disaster_categories.csv: Categories of the messages
+
+•	disaster_messages.csv: Multilingual disaster response messages
+
+
+## Result: Screenshots <a name="Result: Screenshots"></a>
+
+1.The content of the Web app shows disaster messages.
+
+![image](https://user-images.githubusercontent.com/59744578/115153223-6fd96e80-a03a-11eb-8be4-a189cbc13042.png)
 
