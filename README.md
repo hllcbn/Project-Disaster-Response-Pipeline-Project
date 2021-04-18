@@ -17,7 +17,7 @@
 
 ## Motivation <a name="Motivation"></a>
 
-This Project is part of Udacity Data Science Nanodegree Program . The dataset contains tweet and messages from disaster. The goal of the project is to build a Natural Language Processing tool and classify the disaster messages into categories. The web app also displays visualizations of the data
+This Project is part of Udacity Data Science Nanodegree Program . The dataset contains messages from disaster. The goal of the project is to build a Natural Language Processing tool and classify the disaster messages into categories. The web app also displays visualizations of the data
 
 ## Descriptions <a name="Descriptions"></a>
 The Project is divided in the following Sections:
