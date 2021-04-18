@@ -2,10 +2,10 @@
 
 ### Table of Contents
 •	[Motivation](#Motivation)
-•	[Descriptions] (#Description) 
+•	[Descriptions](#Description) 
 •	[Screenshots Web App](#Secreenshots Web App)
 •	[Installation](#Installation)
-•	Data
+•	[Data](#Data)
 •	Result: Screenshots
 •	Licensing, Authors, and Acknowledgements
 
