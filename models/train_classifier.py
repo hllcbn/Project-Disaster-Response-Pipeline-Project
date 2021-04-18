@@ -2,7 +2,7 @@ import nltk
 nltk.download(['punkt', 'wordnet'])
 
 # import libraries
-import argparse
+
 import sys
 import pandas as pd
 from sqlalchemy import create_engine
@@ -26,7 +26,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import AdaBoostClassifier
 import pickle
 
-model_pickle_filename = 'trained_classifier.pkl'
+
 database_filepath = '../db.sqlite3'
 table_name  = 'disaster_message'
 
@@ -124,7 +124,7 @@ def save_model(model, model_filepath):
     Save in a pickle file the model
     Args:
         model: model to be saved
-        model_pickle_filename : pickle filename
+        model_pickle: pickle filename
     '''
     pickle.dump(model, open(model_filepath, 'wb'))
 
